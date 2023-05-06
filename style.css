@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+.container{
+    position: absolute;
+    width: 340px;
+    height: 160px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+ 
+}
+#timer{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0; 
+}
+.buttons{
+text-align: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+button i{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+}
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
